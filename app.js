@@ -9,7 +9,7 @@ const getAddress = () => {
 	let i = 2;
 	let address = "";
 	while (process.argv[i] != undefined) {
-		address += process.argv[i] + " ";
+		address += process.argv[i] + ", ";
 		i++;
 	}
 	return address;
